@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif; /* Fix typo in font-family name */
+    color: #000; /* Change default text color to black */
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.nav{
+    height: 130px;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    
+
+}
+.logo{
+    align-items: center;
+}
+
+.logo img{
+    height: 170px;
+    width: 185px;
+    margin-left: 120px;
+
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin-left: auto; /* Pushes the links to the right */
+}
+
+.nav-links li {
+    margin-right: 20px; /* Add space between each navigation item */
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #000; /* Set link color */
+    /* You can add more styles for links here */
+    font-weight: 100;
+}
+
+.nav2{
+    height: 30px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero{
+    width: 100%;
+    height : auto;
+}
+
+video {
+    height: 700px;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+    position: relative;
+}
+
+.hero2{
+    height:auto;
+    width: 100%;
+    background-color: whitesmoke;
+
+}
+
+.hero2 h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.hero2 p{
+    margin-top: 30px;
+    font-weight: 100;
+}
